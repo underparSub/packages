@@ -263,6 +263,8 @@ typedef NS_ENUM(NSInteger, ImagePickerClassType) { UIImagePickerClassType, PHPic
   ];
   imagePickerController.videoQuality = UIImagePickerControllerQualityTypeHigh;
   imagePickerController.videoExportPreset = AVAssetExportPresetPassthrough;
+  NSLog(@"pickImage method called AVAssetExportPresetPassthrough");
+
 
   
 
